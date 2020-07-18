@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box; /*падинги и бордер не будут увеличиваться,
    а будут высчитывать внутри (очень важный момент)*/
+  scroll-behavior: smooth; /*плавный скролл при переходе из меню*/
 }
 a{
   text-decoration: none; /*убираем подчеркивание*/
@@ -21,6 +22,7 @@ body {
   color: papayawhip;
   background-color: #2C2C2C;
 }
+
 .container{  /*блок хранящий всю инфу*/
   max-width: 1100px; /*макс ширина, чтобы не было нижнего скролла*/
   margin: 0 auto; /*центрирование*/
@@ -436,7 +438,7 @@ body {
 }
 .footer__map{
   padding-top: 10px;
-  max-width: 630px;
+  max-width: 450px;
   width: 100%;
 }
 .footer__map iframe{
